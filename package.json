@@ -1,13 +1,30 @@
 {
   "name": "sportnews",
-  "author":"zhaolong",
+  "author": "zhaolong",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "3.4.4",    
-    "mongodb": "1.3.20"
+    "httpclient":"0.0.3",
+    "express": "3.4.8",
+    "jade":"1.3.0",
+    "ejs": "*",
+    "feedparser": "0.16.6",
+    "request": "2.33.0",
+    "iconv": "2.0.7",
+    "mongoose": "3.8.7",
+    "mongodb": "*"
+  },
+  "description": "ERROR: No README data found!",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrBackKom/sportnews.git"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/MrBackKom/sportnews/issues"
   }
 }
