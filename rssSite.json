@@ -1,5 +1,5 @@
 {
-	    "channel":[
+	"channel":[
         {
             "from":"baidu",
             "name":"civilnews",
@@ -7,12 +7,78 @@
             "title":"百度国内最新新闻",
             "link":"http:\/\/news.baidu.com\/n?cmd=4&class=civilnews&tn=rss",
             "typeId":1
-        },{
-            "from":"netEase",
-            "name":"rss_gn",
-            "title":"网易最新新闻",
-            "link":"http:\/\/news.163.com\/special\/00011K6L\/rss_gn.xml",
-            "typeId":2
         }
+        ,{
+            "from":"netEase",
+            "name":"rss_sportsnba",
+            "title":"网易体育新闻",
+            "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportslq.xml",
+            "typeId":1,
+            "extinfo":{
+                "type":"NBA"
+            }
+        }
+        ,{
+            "from":"netEase",
+            "name":"rss_sportscba",
+            "title":"网易体育新闻",
+            "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportscba.xml",
+            "typeId":1,
+            "extinfo":{
+                "type":"CBA"
+            }
+        }
+        ,{
+            "from":"netEase",
+            "name":"rss_sportsyc",
+            "title":"网易体育新闻",
+            "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportsyc.xml",
+            "typeId":2,
+            "extinfo":{
+                "type":"英超"
+            }
+        }
+        ,{
+            "from":"netEase",
+            "name":"rss_sportsyj",
+            "title":"网易体育新闻",
+            "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportsyj.xml",
+            "typeId":2,
+            "extinfo":{
+                "type":"意甲"
+            }
+        }
+        ,{
+            "from":"netEase",
+            "name":"rss_sportstennis",
+            "title":"网易体育新闻",
+            "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportstennis.xml",
+            "typeId":3,
+            "extinfo":{
+                "type":"网球"
+            }
+        }
+        ,{
+            "from":"netEase",
+            "name":"rss_sportscp",
+            "title":"网易体育新闻",
+            "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportscp.xml",
+            "typeId":4,
+            "extinfo":{
+                "type":"彩票"
+            }
+        }
+        ,{
+            "from":"sina",
+            "name":"f1",
+            "title":"网易体育新闻",
+            "link":"http:\/\/rss.sina.com.cn\/sports\/global\/f1.xml",
+            "typeId":5,
+            "extinfo":{
+                "type":"f1"
+            }
+        }
+
+
     ]
 }
