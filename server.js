@@ -2,9 +2,11 @@
 /**
  * Module dependencies.
  */
+
+
 var express = require('express');
 var routes = require('./routes');
-var news = require('./routes/news');
+var spider = require('./routes/spider');
 var http = require('http');
 var path = require('path');
 
@@ -28,12 +30,13 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
-app.get('/getnews', news.fetchlatestnews);
+app.get('/', spider.fetchlatestnews);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
 
-news.fetchlatestnews();
+// spider.fetchlatestnews();
+
 

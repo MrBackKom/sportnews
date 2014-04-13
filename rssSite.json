@@ -14,6 +14,7 @@
             "title":"网易体育新闻",
             "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportslq.xml",
             "typeId":1,
+            "work":false,
             "extinfo":{
                 "type":"NBA"
             }
@@ -24,8 +25,10 @@
             "title":"网易体育新闻",
             "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportscba.xml",
             "typeId":1,
+            "work":false,
             "extinfo":{
-                "type":"CBA"
+                "type":"CBA",
+                "discriptsion":"时间很久了"
             }
         }
         ,{
@@ -34,12 +37,14 @@
             "title":"网易体育新闻",
             "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportsyc.xml",
             "typeId":2,
+            "work":false,
             "extinfo":{
                 "type":"英超"
             }
         }
         ,{
             "from":"netEase",
+            "work":false,
             "name":"rss_sportsyj",
             "title":"网易体育新闻",
             "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportsyj.xml",
@@ -50,6 +55,7 @@
         }
         ,{
             "from":"netEase",
+            "work":false,
             "name":"rss_sportstennis",
             "title":"网易体育新闻",
             "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportstennis.xml",
@@ -60,6 +66,7 @@
         }
         ,{
             "from":"netEase",
+            "work":false,
             "name":"rss_sportscp",
             "title":"网易体育新闻",
             "link":"http:\/\/sports.163.com\/special\/00051K7F\/rss_sportscp.xml",
@@ -69,9 +76,9 @@
             }
         }
         ,{
-            "from":"sina",
+            "from":"sina",            
             "name":"f1",
-            "title":"网易体育新闻",
+            "title":"新浪体育新闻",
             "link":"http:\/\/rss.sina.com.cn\/sports\/global\/f1.xml",
             "typeId":5,
             "extinfo":{
